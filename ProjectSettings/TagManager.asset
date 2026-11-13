@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - FallingDate
   - 
   - 
   - 
@@ -41,3 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2392627131
+    locked: 0
+  - name: Gameplay
+    uniqueID: 3501324963
+    locked: 0
+  - name: Effects
+    uniqueID: 3147242363
+    locked: 0
+  - name: UI
+    uniqueID: 3494381035
+    locked: 0
+  m_RenderingLayers:
+  - Default

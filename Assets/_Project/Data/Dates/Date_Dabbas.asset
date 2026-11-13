@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3923f8f4ef8027e48a680942412bac13, type: 3}
+  m_Name: Date_Dabbas
+  m_EditorClassIdentifier: 
+  variety: 4
+  displayName: Dabbas
+  displaySprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
+  iconSprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
+  description: Dabbas dates are soft and sweet. You can find them on farms and in
+    markets in the UAE.
+  origin: Grown in the UAE
+  appearance: Light to reddish brown
+  texture: Soft and tender
+  taste: Sweet with a honey-like flavour
+  funFact: Dabbas dates are a popular choice on UAE farms and in local markets.
+  benefits:
+  - Natural energy boost
+  - Contains fibre
+  nutritionNote: Like most dates, it has natural sugars for energy, plus fibre and
+    minerals such as potassium.
+  quizFeedback: Dabbas dates are soft, sweet and honey-like.
+  narrationClip: {fileID: 0}
