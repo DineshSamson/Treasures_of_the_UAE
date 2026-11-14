@@ -30,4 +30,4 @@ MonoBehaviour:
   nutritionNote: Like most dates, it has natural sugars for energy, plus fibre and
     minerals such as potassium.
   quizFeedback: Ajwa is a premium date variety from Madinah.
-  narrationClip: {fileID: 0}
+  narrationClip: {fileID: 8300000, guid: 93461a8ae3790354090047c1f542bf0a, type: 3}
