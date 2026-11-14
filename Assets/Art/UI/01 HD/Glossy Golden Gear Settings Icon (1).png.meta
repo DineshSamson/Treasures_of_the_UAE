@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 72563b512b5b6844f9f4f91d887e7acc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2926003827909993170
+    second: Glossy Golden Gear Settings Icon (1)_0
+  - first:
+      213: 5369238582723778154
+    second: Glossy Golden Gear Settings Icon (1)_1
+  - first:
+      213: -4159754819876648404
+    second: Glossy Golden Gear Settings Icon (1)_2
+  - first:
+      213: -5059050282644997608
+    second: Glossy Golden Gear Settings Icon (1)_3
+  - first:
+      213: 2136173630600301455
+    second: Glossy Golden Gear Settings Icon (1)_4
+  - first:
+      213: 5858330595272346258
+    second: Glossy Golden Gear Settings Icon (1)_5
+  - first:
+      213: -4881665354619237771
+    second: Glossy Golden Gear Settings Icon (1)_6
+  - first:
+      213: 6650539933329178167
+    second: Glossy Golden Gear Settings Icon (1)_7
+  - first:
+      213: 6688980955552132247
+    second: Glossy Golden Gear Settings Icon (1)_8
+  - first:
+      213: -2551493694016241147
+    second: Glossy Golden Gear Settings Icon (1)_9
+  - first:
+      213: -2754236035494404692
+    second: Glossy Golden Gear Settings Icon (1)_10
+  - first:
+      213: 3361216988114616952
+    second: Glossy Golden Gear Settings Icon (1)_11
+  - first:
+      213: -5996807855242892048
+    second: Glossy Golden Gear Settings Icon (1)_12
+  - first:
+      213: -9030985366380877760
+    second: Glossy Golden Gear Settings Icon (1)_13
+  - first:
+      213: 2940561070127792709
+    second: Glossy Golden Gear Settings Icon (1)_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1217
+        height: 1186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2dddf9650fb467d0800000000000000
+      internalID: -2926003827909993170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 923
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6692952b0e538a40800000000000000
+      internalID: 5369238582723778154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 863
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a8888d7059546c0800000000000000
+      internalID: -4159754819876648404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 393
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81afa1a6294aac9b0800000000000000
+      internalID: -5059050282644997608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 353
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bcc7e599635ad10800000000000000
+      internalID: 2136173630600301455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 368
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ac20c33a8fc4150800000000000000
+      internalID: 5858330595272346258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 353
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ac6916937d04cb0800000000000000
+      internalID: -4881665354619237771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 187
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73eb2a255d67b4c50800000000000000
+      internalID: 6650539933329178167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 312
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ca9054db804dc50800000000000000
+      internalID: 6688980955552132247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 85
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5024381f006479cd0800000000000000
+      internalID: -2551493694016241147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 82
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad96c41becf6c9d0800000000000000
+      internalID: -2754236035494404692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 66
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872849dca0175ae20800000000000000
+      internalID: 3361216988114616952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_12
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 31
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fca9f1370f07cca0800000000000000
+      internalID: -5996807855242892048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 63
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048ed1158ae7ba280800000000000000
+      internalID: -9030985366380877760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Golden Gear Settings Icon (1)_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 15
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5424f49a6b8fec820800000000000000
+      internalID: 2940561070127792709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Glossy Golden Gear Settings Icon (1)_0: -2926003827909993170
+      Glossy Golden Gear Settings Icon (1)_1: 5369238582723778154
+      Glossy Golden Gear Settings Icon (1)_10: -2754236035494404692
+      Glossy Golden Gear Settings Icon (1)_11: 3361216988114616952
+      Glossy Golden Gear Settings Icon (1)_12: -5996807855242892048
+      Glossy Golden Gear Settings Icon (1)_13: -9030985366380877760
+      Glossy Golden Gear Settings Icon (1)_14: 2940561070127792709
+      Glossy Golden Gear Settings Icon (1)_2: -4159754819876648404
+      Glossy Golden Gear Settings Icon (1)_3: -5059050282644997608
+      Glossy Golden Gear Settings Icon (1)_4: 2136173630600301455
+      Glossy Golden Gear Settings Icon (1)_5: 5858330595272346258
+      Glossy Golden Gear Settings Icon (1)_6: -4881665354619237771
+      Glossy Golden Gear Settings Icon (1)_7: 6650539933329178167
+      Glossy Golden Gear Settings Icon (1)_8: 6688980955552132247
+      Glossy Golden Gear Settings Icon (1)_9: -2551493694016241147
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

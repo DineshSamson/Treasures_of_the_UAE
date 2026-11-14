@@ -29,4 +29,4 @@ MonoBehaviour:
   nutritionNote: Like most dates, it has natural sugars for energy, plus fibre and
     minerals such as potassium.
   quizFeedback: Dabbas dates are soft, sweet and honey-like.
-  narrationClip: {fileID: 0}
+  narrationClip: {fileID: 8300000, guid: 7d98569af813dc844b6c9624d115e387, type: 3}

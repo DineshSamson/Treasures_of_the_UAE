@@ -29,4 +29,4 @@ MonoBehaviour:
   nutritionNote: Like most dates, it has natural sugars for energy, plus fibre and
     minerals such as potassium.
   quizFeedback: Khenaizi dates are reddish-brown and smooth.
-  narrationClip: {fileID: 0}
+  narrationClip: {fileID: 8300000, guid: 505ad8a1d5efe574f90793c8025736f2, type: 3}

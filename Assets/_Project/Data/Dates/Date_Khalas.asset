@@ -30,4 +30,4 @@ MonoBehaviour:
   nutritionNote: Like most dates, it has natural sugars for energy, plus fibre and
     minerals such as potassium.
   quizFeedback: Khalas dates are golden brown, soft and very sweet.
-  narrationClip: {fileID: 0}
+  narrationClip: {fileID: 8300000, guid: 089d742ef3e04d54db7e7f4af51f851f, type: 3}
