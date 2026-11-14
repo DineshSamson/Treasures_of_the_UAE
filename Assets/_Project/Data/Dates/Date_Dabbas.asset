@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variety: 4
   displayName: Dabbas
-  displaySprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
-  iconSprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
+  displaySprite: {fileID: 21300000, guid: 6de203d46c5541b46b8ddbd6e9c6f811, type: 3}
+  iconSprite: {fileID: 21300000, guid: 7498d49f4cf53d6488c2fb31a763b759, type: 3}
   description: Dabbas dates are soft and sweet. You can find them on farms and in
     markets in the UAE.
   origin: Grown in the UAE

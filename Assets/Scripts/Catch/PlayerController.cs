@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 /// <summary>
 /// Three-lane player movement. Keyboard (A/D, Left/Right) and mouse/touch
@@ -41,6 +42,9 @@ public class PlayerController : MonoBehaviour
     private bool reactionPositive;
     private Vector3 visualBaseScale = Vector3.one;
     private Vector3 visualBaseLocalPosition;
+
+    private bool wasMoving;
+    public Animator animator;
 
     private void Awake()
     {
@@ -139,6 +143,7 @@ public class PlayerController : MonoBehaviour
     private void OnPointer(InputAction.CallbackContext context)
     {
         if (!controlEnabled) return;
+
         if (context.control.device is Pointer pointer)
         {
             // Handled in Update: IsPointerOverGameObject must not be called inside a callback.
@@ -152,6 +157,9 @@ public class PlayerController : MonoBehaviour
     private void MoveLane(int delta)
     {
         if (!controlEnabled) return;
+
+        animator.SetFloat("MoveX", delta);
+
         SetLane(laneIndex + delta);
     }
 
@@ -172,11 +180,21 @@ public class PlayerController : MonoBehaviour
         }
 
         Vector3 position = cachedTransform.position;
-        if (!Mathf.Approximately(position.x, targetX))
+
+        bool isMoving = !Mathf.Approximately(position.x, targetX);
+
+        if (isMoving)
         {
             position.x = Mathf.MoveTowards(position.x, targetX, moveSpeed * Time.deltaTime);
             cachedTransform.position = position;
         }
+
+        if (!isMoving && wasMoving)
+        {
+            animator.SetFloat("MoveX", 0);         // runs once when the player arrives
+        }
+
+        wasMoving = isMoving;
 
         UpdateReaction(Time.deltaTime);
     }

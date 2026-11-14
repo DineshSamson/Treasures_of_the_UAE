@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variety: 3
   displayName: Khenaizi
-  displaySprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
-  iconSprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
+  displaySprite: {fileID: 21300000, guid: 869f85b16bbc9e6448406924a7bca591, type: 3}
+  iconSprite: {fileID: 21300000, guid: f29a7a1c6417e684fb5cda48c71856a1, type: 3}
   description: Khenaizi dates are reddish-brown and smooth. They are a favourite
     in many UAE homes.
   origin: Popular in the UAE; also grown in Iraq

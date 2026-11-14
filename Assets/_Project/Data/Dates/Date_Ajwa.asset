@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variety: 0
   displayName: Ajwa
-  displaySprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
-  iconSprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
+  displaySprite: {fileID: 21300000, guid: 113c09e30c409e346bd9d26493400c0f, type: 3}
+  iconSprite: {fileID: 21300000, guid: 7b3ab82b9d29ddc4eb8f89246045dc6f, type: 3}
   description: Ajwa dates are small, dark and soft. They are gently sweet and very
     special to many families.
   origin: Madinah, Saudi Arabia

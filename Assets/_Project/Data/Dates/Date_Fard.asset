@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variety: 2
   displayName: Fard
-  displaySprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
-  iconSprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
+  displaySprite: {fileID: 21300000, guid: d21cd9cb1e8d42b43a612f4b0b9db2e9, type: 3}
+  iconSprite: {fileID: 21300000, guid: 638b7093e36f41942ba43af513b49893, type: 3}
   description: Fard dates are dark and rich. They have a deep, sweet flavour.
   origin: Oman and the UAE
   appearance: Dark brown to nearly black and glossy

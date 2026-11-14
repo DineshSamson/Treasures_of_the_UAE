@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variety: 5
   displayName: Barhi
-  displaySprite: {fileID: 21300000, guid: 46e25cc638464ef4cb8a79d927885ed9, type: 3}
-  iconSprite: {fileID: 0}
+  displaySprite: {fileID: 21300000, guid: e9f28eb69b6604b4481144d233f3e48d, type: 3}
+  iconSprite: {fileID: 21300000, guid: 8fa3472af1a2d98458868e07af9f0dbb, type: 3}
   description: Barhi dates are special because you can eat them yellow and crunchy,
     or brown and soft.
   origin: Originally from Iraq; now grown in many Gulf countries
