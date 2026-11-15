@@ -130,10 +130,10 @@ public class LearningManager : MonoBehaviour
             dateImage.enabled = currentData.DisplaySprite != null;
         }
 
-        if (originRow != null) originRow.Set("Origin:", currentData.Origin);
-        if (appearanceRow != null) appearanceRow.Set("Looks:", currentData.Appearance);
-        if (textureRow != null) textureRow.Set("Feels:", currentData.Texture);
-        if (tasteRow != null) tasteRow.Set("Tastes:", currentData.Taste);
+        if (originRow != null) originRow.Set("Origin", currentData.Origin);
+        if (appearanceRow != null) appearanceRow.Set("Looks", currentData.Appearance);
+        if (textureRow != null) textureRow.Set("Feels", currentData.Texture);
+        if (tasteRow != null) tasteRow.Set("Tastes", currentData.Taste);
 
         SetBenefits(currentData.Benefits);
         UpdateButtons();

@@ -63,10 +63,20 @@ public class QuizManager : MonoBehaviour
     private Coroutine feedbackRoutine;
     private System.Action<AnswerButton> answerCallback;
 
+    public float duration = 1f;
+    public float strength =  8f;
+    public float frequency = 35f;
+
+    private LTDescr shakeTween;
+    public GameObject checkAnswerObject;
+    private Vector3 originalPosition;
+
     private void Awake()
     {
         feedbackWait = new WaitForSeconds(feedbackDelay);
         answerCallback = OnAnswerClicked; // cached so we don't allocate per question
+
+        originalPosition = transform.localPosition;
     }
 
     private void OnEnable()
@@ -244,7 +254,12 @@ public class QuizManager : MonoBehaviour
         selectedIndex = button.Index;
         button.SetState(AnswerButton.VisualState.Selected);
 
-        if (checkAnswerButton != null) checkAnswerButton.interactable = true;
+        if (checkAnswerButton != null)
+        {
+            Debug.Log("Vibrate");
+            checkAnswerButton.interactable = true;
+            Vibrate();
+        }
     }
 
     private void CheckAnswer()
@@ -381,5 +396,28 @@ public class QuizManager : MonoBehaviour
             list[i] = list[j];
             list[j] = temp;
         }
+    }
+
+    public void Vibrate()
+    {
+        //if (shakeTween != null)
+        //    shakeTween.canc
+
+        originalPosition = checkAnswerObject.transform.localPosition;
+
+        shakeTween = LeanTween.value(checkAnswerObject.gameObject, 0f, 1f, duration)
+            .setOnUpdate((float value) =>
+            {
+                float amplitude = strength * (1f - value);
+                float offset = Mathf.Sin(Time.time * frequency) * amplitude;
+
+                checkAnswerObject.transform.localPosition =
+                    originalPosition + Vector3.right * offset;
+            })
+            .setOnComplete(() =>
+            {
+                checkAnswerObject.transform.localPosition = originalPosition;
+                shakeTween = null;
+            });
     }
 }
