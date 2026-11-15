@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 0fc10a97ad83f4544a1619ff639b0e74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5890199458688598047
+    second: emirati_boy_spritesheet_7x2_0
+  - first:
+      213: -3040782295500601456
+    second: emirati_boy_spritesheet_7x2_1
+  - first:
+      213: -38905106761299110
+    second: emirati_boy_spritesheet_7x2_2
+  - first:
+      213: 2043797861941819162
+    second: emirati_boy_spritesheet_7x2_3
+  - first:
+      213: 3896234772783823636
+    second: emirati_boy_spritesheet_7x2_4
+  - first:
+      213: 2344950510551211209
+    second: emirati_boy_spritesheet_7x2_5
+  - first:
+      213: -1141392774772895129
+    second: emirati_boy_spritesheet_7x2_6
+  - first:
+      213: -7982074548084580973
+    second: emirati_boy_spritesheet_7x2_7
+  - first:
+      213: -8688175239496643463
+    second: emirati_boy_spritesheet_7x2_8
+  - first:
+      213: 2790024469538199435
+    second: emirati_boy_spritesheet_7x2_9
+  - first:
+      213: -9068779228398940398
+    second: emirati_boy_spritesheet_7x2_10
+  - first:
+      213: 253891505360026148
+    second: emirati_boy_spritesheet_7x2_11
+  - first:
+      213: -8115151837319026527
+    second: emirati_boy_spritesheet_7x2_12
+  - first:
+      213: -1068066555969835103
+    second: emirati_boy_spritesheet_7x2_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 409
+        width: 136
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1effaa8cccec14ea0800000000000000
+      internalID: -5890199458688598047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 409
+        width: 144
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097c36dec98fcc5d0800000000000000
+      internalID: -3040782295500601456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 431
+        width: 202
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b4b83f208c57ff0800000000000000
+      internalID: -38905106761299110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_3
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 440
+        width: 136
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17beb1b3570d5c10800000000000000
+      internalID: 2043797861941819162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_4
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 426
+        width: 186
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bfd49f1e4321630800000000000000
+      internalID: 3896234772783823636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_5
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 409
+        width: 188
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc9645b010fa8020800000000000000
+      internalID: 2344950510551211209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_6
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 409
+        width: 160
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762d6769155f820f0800000000000000
+      internalID: -1141392774772895129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 25
+        width: 136
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d5bb64d79f93190800000000000000
+      internalID: -7982074548084580973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 25
+        width: 136
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c457fc6a66d6780800000000000000
+      internalID: -8688175239496643463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_9
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 25
+        width: 136
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87d87d097828b620800000000000000
+      internalID: 2790024469538199435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_10
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 25
+        width: 136
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f07d81759352280800000000000000
+      internalID: -9068779228398940398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_11
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 24
+        width: 136
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a397c9af0068300800000000000000
+      internalID: 253891505360026148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_12
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 24
+        width: 136
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8ad3e5660316f80800000000000000
+      internalID: -8115151837319026527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emirati_boy_spritesheet_7x2_13
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 25
+        width: 136
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af61fe40277d21f0800000000000000
+      internalID: -1068066555969835103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      emirati_boy_spritesheet_7x2_0: -5890199458688598047
+      emirati_boy_spritesheet_7x2_1: -3040782295500601456
+      emirati_boy_spritesheet_7x2_10: -9068779228398940398
+      emirati_boy_spritesheet_7x2_11: 253891505360026148
+      emirati_boy_spritesheet_7x2_12: -8115151837319026527
+      emirati_boy_spritesheet_7x2_13: -1068066555969835103
+      emirati_boy_spritesheet_7x2_2: -38905106761299110
+      emirati_boy_spritesheet_7x2_3: 2043797861941819162
+      emirati_boy_spritesheet_7x2_4: 3896234772783823636
+      emirati_boy_spritesheet_7x2_5: 2344950510551211209
+      emirati_boy_spritesheet_7x2_6: -1141392774772895129
+      emirati_boy_spritesheet_7x2_7: -7982074548084580973
+      emirati_boy_spritesheet_7x2_8: -8688175239496643463
+      emirati_boy_spritesheet_7x2_9: 2790024469538199435
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -321,7 +321,7 @@ public class QuizManager : MonoBehaviour
             if (face != null) feedbackCharacter.sprite = face;
         }
 
-        if (feedbackCardImage != null) feedbackCardImage.color = correct ? correctCardColor : wrongCardColor;
+        //if (feedbackCardImage != null) feedbackCardImage.color = correct ? correctCardColor : wrongCardColor;
 
         if (feedbackTitleText != null) feedbackTitleText.text = PickRandom(correct ? correctTitles : wrongTitles);
 
@@ -334,8 +334,8 @@ public class QuizManager : MonoBehaviour
 
         if (pointsEarnedText != null)
         {
-            pointsEarnedText.gameObject.SetActive(correct && points > 0);
-            pointsEarnedText.text = $"+{points}";
+            //pointsEarnedText.gameObject.SetActive(correct && points > 0);
+            pointsEarnedText.text = $"Score: +{points}";
         }
 
         if (nextButtonLabel != null)

@@ -91,12 +91,12 @@ public class AnswerButton : MonoBehaviour
                 break;
 
             case VisualState.Correct:
-                if (background != null) background.color = correctColor;
+               // if (background != null) background.color = correctColor;
                 ShowIcon(correctIconSprite);
                 break;
 
             case VisualState.Wrong:
-                if (background != null) background.color = wrongColor;
+              //  if (background != null) background.color = wrongColor;
                 ShowIcon(wrongIconSprite);
                 break;
 
