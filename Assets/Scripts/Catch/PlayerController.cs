@@ -153,7 +153,7 @@ public class PlayerController : MonoBehaviour
 
     // ---- Movement ----
 
-    private void MoveLane(int delta)
+    public void MoveLane(int delta)
     {
         if (!controlEnabled) return;
 
