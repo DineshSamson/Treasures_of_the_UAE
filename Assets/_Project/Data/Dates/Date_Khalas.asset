@@ -18,7 +18,7 @@ MonoBehaviour:
   iconSprite: {fileID: 21300000, guid: ecf40b45411fded4480e511e2fca7181, type: 3}
   description: Khalas dates are popular in the UAE. They are golden brown, soft and
     very sweet.
-  origin: Al-Ahsa, Saudi Arabia, and grown widely in the UAE
+  origin: Al-Ahsa, Saudi Arabia
   appearance: Golden brown and shiny
   texture: Soft and smooth
   taste: Very sweet, like caramel
