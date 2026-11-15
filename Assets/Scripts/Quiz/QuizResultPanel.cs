@@ -58,7 +58,7 @@ public class QuizResultPanel : MonoBehaviour
         int starCount = scoreManager.GetQuizStars();
 
         if (correctCountText != null)
-            correctCountText.text = $"{scoreManager.QuizCorrect} / {scoreManager.QuizQuestionTotal}";
+            correctCountText.text = $"Correct: {scoreManager.QuizCorrect} / {scoreManager.QuizQuestionTotal}";
         if (pointsText != null)
             pointsText.text = $"{scoreManager.QuizScore} points";
 

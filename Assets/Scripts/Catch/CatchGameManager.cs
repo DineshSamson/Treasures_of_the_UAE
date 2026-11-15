@@ -303,7 +303,7 @@ public class CatchGameManager : MonoBehaviour
 
     private void UpdateScoreText()
     {
-        if (scoreText != null && scoreManager != null) scoreText.text = scoreManager.CatchScore.ToString();
+        if (scoreText != null && scoreManager != null) scoreText.text = $"Score: {scoreManager.CatchScore}";
     }
 
     private void UpdateTimerText(int seconds)

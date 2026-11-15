@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 /// <summary>
 /// Final screen: total score, quiz and catch scores, stars and trophy.
 /// Play Again and Home both reset the session's scores and progress.
@@ -116,11 +117,11 @@ public class FinalResultPanel : MonoBehaviour
             if (value != shown)
             {
                 shown = value;
-                if (finalScoreText != null) finalScoreText.text = value.ToString();
+                if (finalScoreText != null) finalScoreText.text = $"Total: {value}";
             }
             yield return null;
         }
-        if (finalScoreText != null) finalScoreText.text = total.ToString();
+        if (finalScoreText != null) finalScoreText.text = $"Total: {total}";
 
         if (stars != null)
         {

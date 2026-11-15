@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
-using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 /// <summary>
 /// Three-lane player movement. Keyboard (A/D, Left/Right) and mouse/touch

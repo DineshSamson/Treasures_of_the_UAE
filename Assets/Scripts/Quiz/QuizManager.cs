@@ -177,7 +177,7 @@ public class QuizManager : MonoBehaviour
             questionImage.enabled = correctData.DisplaySprite != null;
         }
 
-        if (progressText != null) progressText.text = $"Question {currentQuestion + 1}/{questionOrder.Length}";
+        if (progressText != null) progressText.text = $"Question: {currentQuestion + 1}/{questionOrder.Length}";
         UpdateScoreText();
 
         for (int i = 0; i < answerButtons.Length; i++)
