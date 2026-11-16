@@ -256,7 +256,6 @@ public class QuizManager : MonoBehaviour
 
         if (checkAnswerButton != null)
         {
-            Debug.Log("Vibrate");
             checkAnswerButton.interactable = true;
             Vibrate();
         }

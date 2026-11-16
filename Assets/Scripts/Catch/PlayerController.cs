@@ -155,11 +155,23 @@ public class PlayerController : MonoBehaviour
 
     public void MoveLane(int delta)
     {
+        //if (!controlEnabled) return;
+
+        //animator.SetFloat("MoveX", delta);
+
+        //SetLane(laneIndex + delta);
+
         if (!controlEnabled) return;
+        if (laneMarkers == null || laneMarkers.Length == 0) return;
+
+        int newIndex = laneIndex + delta;
+
+        // At the edge: A in the left lane, or D in the right lane, does nothing.
+        if (newIndex < 0 || newIndex >= laneMarkers.Length) return;
 
         animator.SetFloat("MoveX", delta);
 
-        SetLane(laneIndex + delta);
+        SetLane(newIndex);
     }
 
     private void SetLane(int index)
