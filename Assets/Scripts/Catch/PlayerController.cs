@@ -155,12 +155,6 @@ public class PlayerController : MonoBehaviour
 
     public void MoveLane(int delta)
     {
-        //if (!controlEnabled) return;
-
-        //animator.SetFloat("MoveX", delta);
-
-        //SetLane(laneIndex + delta);
-
         if (!controlEnabled) return;
         if (laneMarkers == null || laneMarkers.Length == 0) return;
 

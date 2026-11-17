@@ -349,8 +349,12 @@ public class QuizManager : MonoBehaviour
         if (pointsEarnedText != null)
         {
             //pointsEarnedText.gameObject.SetActive(correct && points > 0);
-            pointsEarnedText.text = $"Score: +{points}";
+            if(points != 0)
+                pointsEarnedText.text = $"+{points}";
+            else
+                pointsEarnedText.text = $"{points}";
         }
+        
 
         if (nextButtonLabel != null)
         {

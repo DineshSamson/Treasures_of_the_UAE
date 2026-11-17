@@ -11,7 +11,7 @@ public class GameSettings : MonoBehaviour
     private const string SfxKey = "tou_sfx_enabled";
 
     [Header("Default volumes (not exposed to the player)")]
-    [SerializeField, Range(0f, 1f)] private float musicVolume = 0.5f;
+    [SerializeField, Range(0f, 1f)] private float musicVolume = 0.05f;
     [SerializeField, Range(0f, 1f)] private float sfxVolume = 1f;
 
     public bool MusicEnabled { get; private set; } = true;

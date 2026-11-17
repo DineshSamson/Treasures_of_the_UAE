@@ -98,7 +98,7 @@ public class AudioManager : MonoBehaviour
         switch (next)
         {
             case GameState.Splash:
-                break; // browsers block audio until the first click
+                break; 
 
             case GameState.Catch:
                 PlayMusic(catchMusic != null ? catchMusic : menuMusic);
@@ -115,10 +115,10 @@ public class AudioManager : MonoBehaviour
         if (clip == null) return;
 
         bool enabled = settings == null || settings.MusicEnabled;
-        if (musicSource.clip == clip && (musicSource.isPlaying || !enabled)) return; // already current
+        if (musicSource.clip == clip && (musicSource.isPlaying || !enabled)) return; 
 
         musicSource.clip = clip;
-        musicSource.volume = settings != null ? settings.MusicVolume : 0.5f;
+        musicSource.volume = settings != null ? settings.MusicVolume : 0.05f;
         if (enabled) musicSource.Play();
     }
 
@@ -127,7 +127,7 @@ public class AudioManager : MonoBehaviour
         if (musicSource == null) return;
 
         bool musicOn = settings == null || settings.MusicEnabled;
-        musicSource.volume = settings != null ? settings.MusicVolume : 0.5f;
+        musicSource.volume = settings != null ? settings.MusicVolume : 0.05f;
 
         if (!musicOn)
         {
